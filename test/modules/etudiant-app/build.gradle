@@ -1,0 +1,13 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	compileOnly project(":modules:etudiant:etudiant-api")
+
+	compileOnly project(":modules:etudiant:etudiant-service")
+
+	compileOnly project(":modules:classe:classe-api")
+
+	compileOnly project(":modules:classe:classe-service")
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.1.4"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="professeur.model.ProfClasse">
+		<field name="uuid" type="String" />
+		<field name="profClasseId" type="long" />
+		<field name="professeurId" type="long" />
+		<field name="classeId" type="long" />
+	</model>
+	<model name="professeur.model.Professeur">
+		<field name="uuid" type="String" />
+		<field name="professeurId" type="long" />
+		<field name="nom" type="String" />
+		<field name="prenom" type="String" />
+	</model>
+</model-hints>

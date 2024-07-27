@@ -1,0 +1,10 @@
+Bundle-Name: classe-api
+Bundle-SymbolicName: classe.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	classe.exception,\
+	classe.model,\
+	classe.service,\
+	classe.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../classe-service/service.xml

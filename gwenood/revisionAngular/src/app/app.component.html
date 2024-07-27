@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <span>Gwenood</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button [routerLink]="['/etudiant']">AJOUTER UN ETUDIANT</button>
+  <button mat-raised-button [routerLink]="['/classe']">AJOUTER UNE CLASSE</button>
+  <button mat-raised-button [routerLink]="['/professeur']">AJOUTER UN PROF</button>
+  <button mat-raised-button [routerLink]="['/affecter']">AFFECTER DES PROFS A DES CLASSES</button>
+  <button mat-raised-button [routerLink]="['/matiere']">AJOUTER UNE MATIERE</button>
+  <button mat-raised-button [routerLink]="['/file']">AJOUTER FICHIER POUR MATIERE</button>
+  <button mat-raised-button [routerLink]="['/display-options']">Afficher les informations</button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

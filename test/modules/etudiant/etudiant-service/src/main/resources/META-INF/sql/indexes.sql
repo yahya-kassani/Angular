@@ -1,0 +1,1 @@
+create index IX_2CBC2433 on LL_Etudiant (uuid_[$COLUMN_LENGTH:75$]);

@@ -1,0 +1,22 @@
+{
+  "matiere": [
+    {
+      "id": "d032",
+      "nomIntitule": "Anglais",
+      "anneeSocolaire": "3ème année",
+      "nomProfs": "TAHIRI AHMED"
+    },
+    {
+      "id": "4b2d",
+      "nomIntitule": "Francais",
+      "anneeSocolaire": "1ère année",
+      "nomProfs": "KHALID AISSAOUI"
+    },
+    {
+      "id": "bc92",
+      "nomIntitule": "Big Data",
+      "anneeSocolaire": "5ème année",
+      "nomProfs": "KHALID AISSAOUI"
+    }
+  ]
+}

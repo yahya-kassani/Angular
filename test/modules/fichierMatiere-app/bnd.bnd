@@ -1,0 +1,4 @@
+Bundle-Name: fichierMatiere-app
+Bundle-SymbolicName: fichiermatiere.app
+Bundle-Version: 1.0.0
+Export-Package: fichiermatiere.app.constants

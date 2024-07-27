@@ -1,0 +1,10 @@
+Bundle-Name: matiere-api
+Bundle-SymbolicName: matiere.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	matiere.exception,\
+	matiere.model,\
+	matiere.service,\
+	matiere.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../matiere-service/service.xml

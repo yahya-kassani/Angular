@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="etudiant.model.Etudiant">
+		<field name="uuid" type="String" />
+		<field name="etudiantId" type="long" />
+		<field name="nom" type="String" />
+		<field name="prenom" type="String" />
+		<field name="imageId" type="long" />
+		<field name="classeId" type="long" />
+	</model>
+</model-hints>

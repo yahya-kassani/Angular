@@ -1,0 +1,28 @@
+<div mat-dialog-title>
+    <h1>Etudiant Form</h1>
+</div>
+<div mat-dialog-content>
+
+    <div class="row">
+        <mat-form-field appearance="outline">
+          <mat-label>ANNEE SCOLAIRE </mat-label>
+          <mat-select placeholder="Select year" [(value)]="selectedYear">
+            <mat-option *ngFor="let year of years" [value]="year">{{ year }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="row">
+        <mat-form-field appearance="outline">
+          <mat-label>LISTE DES PROFS </mat-label>
+          <mat-select placeholder="Select year" [(value)]="selectedprof">
+            <mat-option *ngFor="let profs of profs" [value]="profs">{{ profs }}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+  <div mat-dialog-actions>
+    <button mat-raised-button>Cancel</button>
+    <button mat-raised-button color="primary">Save</button>
+  </div>
+  

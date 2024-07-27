@@ -1,0 +1,1 @@
+create index IX_A7986702 on LL_Classe (uuid_[$COLUMN_LENGTH:75$]);

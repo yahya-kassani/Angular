@@ -1,0 +1,10 @@
+Bundle-Name: professeur-api
+Bundle-SymbolicName: professeur.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	professeur.exception,\
+	professeur.model,\
+	professeur.service,\
+	professeur.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../professeur-service/service.xml

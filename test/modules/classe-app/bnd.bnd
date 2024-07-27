@@ -1,0 +1,4 @@
+Bundle-Name: classe-app
+Bundle-SymbolicName: classe.app
+Bundle-Version: 1.0.0
+Export-Package: classe.app.constants

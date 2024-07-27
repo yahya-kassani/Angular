@@ -1,0 +1,18 @@
+{
+  "student": [
+    {
+      "id": "beee",
+      "firstName": "sokhra",
+      "lastName": "alaoui",
+      "image": "C:\\fakepath\\Définition.pdf",
+      "year": "4ème année"
+    },
+    {
+      "id": "0def",
+      "firstName": "kamal",
+      "lastName": "karam",
+      "image": "C:\\fakepath\\Capture.PNG",
+      "year": "5ème année"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="fichiermatiere.model.FichierMatiere">
+		<field name="uuid" type="String" />
+		<field name="fichierMatiereId" type="long" />
+		<field name="matiereId" type="long" />
+		<field name="fichierId" type="long" />
+	</model>
+</model-hints>

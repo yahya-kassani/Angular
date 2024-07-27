@@ -1,0 +1,11 @@
+dependencies {
+	api project(":modules:fichierMatiere:fichierMatiere-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../fichierMatiere-api/src/main/java"
+}
+
+group = "fichiermatiere"

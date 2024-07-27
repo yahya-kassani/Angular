@@ -1,0 +1,17 @@
+<div mat-dialog-title>
+    <h1>Classe Formulaire</h1>
+</div>
+<form [formGroup]="classForm" (ngSubmit)="onFormSubmit()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Intitulé</mat-label>
+        <input matInput type="text" placeholder="Ex : 1 ére année " formControlName="classe">
+      </mat-form-field>
+  </div>
+</div>
+  <div mat-dialog-actions>
+    <button mat-raised-button>Cancel</button>
+    <button mat-raised-button color="primary" type="submit">Save</button>
+  </div>
+  </form>

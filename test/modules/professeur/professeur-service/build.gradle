@@ -1,0 +1,11 @@
+dependencies {
+	api project(":modules:professeur:professeur-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../professeur-api/src/main/java"
+}
+
+group = "professeur"

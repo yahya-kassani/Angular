@@ -1,0 +1,10 @@
+Bundle-Name: etudiant-api
+Bundle-SymbolicName: etudiant.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	etudiant.exception,\
+	etudiant.model,\
+	etudiant.service,\
+	etudiant.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../etudiant-service/service.xml

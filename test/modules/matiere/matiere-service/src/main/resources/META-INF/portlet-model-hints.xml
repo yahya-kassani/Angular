@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="matiere.model.Matiere">
+		<field name="uuid" type="String" />
+		<field name="matiereId" type="long" />
+		<field name="classeId" type="long" />
+		<field name="professeurId" type="long" />
+		<field name="Intitule" type="String" />
+	</model>
+</model-hints>

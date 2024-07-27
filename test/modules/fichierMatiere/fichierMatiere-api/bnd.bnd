@@ -1,0 +1,10 @@
+Bundle-Name: fichierMatiere-api
+Bundle-SymbolicName: fichiermatiere.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	fichiermatiere.exception,\
+	fichiermatiere.model,\
+	fichiermatiere.service,\
+	fichiermatiere.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../fichierMatiere-service/service.xml
